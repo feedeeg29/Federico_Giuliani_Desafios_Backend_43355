@@ -12,7 +12,7 @@ class ProductManager {
         }
 
         // Validar que no se repita el campo "code"
-        if (this.products.some((p) => p.code === product.code)) {
+        if (this.products.find((p) => p.code === product.code)) {
             console.log("Error: El código ya existe");
             return;
         }
@@ -99,3 +99,11 @@ manager.getProductById(100);
 // Eliminar un producto por su id, descomentar para probar
 //manager.removeProductById(1);
 //console.log(manager.getProducts());
+manager.addProduct({
+    title: "Producto 4",
+    description: "Descripción del producto 4",
+    price: 3.34,
+    thumbnail: "path/imagen4.jpg",
+    code: "fede101112",
+    stock: 15,
+})
