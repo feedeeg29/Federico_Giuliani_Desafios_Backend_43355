@@ -30,40 +30,72 @@ class ProductManager {
         if (product) {
             return product;
         } else {
+            console.log(`Error: Producto con el id "${id}" no encontrado`);
+        }
+    }
+    removeProductById(id) {
+        const index = this.products.findIndex((p) => p.id === id);
+        if (index !== -1) {
+            this.products.splice(index, 1);
+            console.log("Producto eliminado correctamente");
+        } else {
             console.log("Error: Producto no encontrado");
         }
     }
 }
 
-// Ejemplo de uso:
+// Prueba de funcionamiento, primero, creamos una instancia de ProductManager
 const manager = new ProductManager();
 
-// Agregar productos
+// Agregamos productos para poder pobrar
 manager.addProduct({
     title: "Producto 1",
     description: "Descripción del producto 1",
     price: 10.99,
-    thumbnail: "ruta/imagen1.jpg",
-    code: "ABC123",
+    thumbnail: "path/imagen1.jpg",
+    code: "fede123",
     stock: 5,
 });
 
 manager.addProduct({
     title: "Producto 2",
     description: "Descripción del producto 2",
-    price: 19.99,
-    thumbnail: "ruta/imagen2.jpg",
-    code: "DEF456",
+    price: 234.30,
+    thumbnail: "path/imagen2.jpg",
+    code: "fede456",
     stock: 3,
 });
 
-// Obtener todos los productos
+manager.addProduct({
+    title: "Producto 3",
+    description: "Descripción del producto 3",
+    price: 23.23,
+    thumbnail: "path/imagen2.jpg",
+    code: "fede789",
+    stock: 8,
+})
+
+manager.addProduct({
+    title: "Producto 4",
+    description: "Descripción del producto 4",
+    price: 3.34,
+    thumbnail: "path/imagen4.jpg",
+    code: "fede101112",
+    stock: 15,
+})
+
+// Probamos traer todos los tickets primero
 
 console.log(manager.getProducts());
 
-// Obtener un producto por su id
+// Ahora probamos traer algunos por su id
 
 console.log(manager.getProductById(2));
 
 // Obtener un producto por un id inexistente
-const nonExistingProduct = manager.getProductById(100);
+manager.getProductById(100);
+
+
+// Eliminar un producto por su id, descomentar para probar
+//manager.removeProductById(1);
+//console.log(manager.getProducts());
