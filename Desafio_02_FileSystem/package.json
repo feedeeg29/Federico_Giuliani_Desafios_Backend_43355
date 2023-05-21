@@ -4,7 +4,7 @@
   "main": "desafio_01.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon desafio_01.js"
+    "start": "nodemon desafio_02.js"
   },
   "keywords": [],
   "author": "",

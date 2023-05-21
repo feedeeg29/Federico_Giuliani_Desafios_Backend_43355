@@ -90,20 +90,20 @@ console.log(manager.getProducts());
 
 // Ahora probamos traer algunos por su id
 
-console.log(manager.getProductById(2));
+//console.log(manager.getProductById(2));
 
 // Obtener un producto por un id inexistente
-manager.getProductById(100);
+//manager.getProductById(100);
 
 
 // Eliminar un producto por su id, descomentar para probar
-//manager.removeProductById(1);
-//console.log(manager.getProducts());
-manager.addProduct({
+manager.removeProductById(1);
+console.log(manager.getProducts());
+/*manager.addProduct({
     title: "Producto 4",
     description: "Descripción del producto 4",
     price: 3.34,
     thumbnail: "path/imagen4.jpg",
     code: "fede101112",
     stock: 15,
-})
+})*/
