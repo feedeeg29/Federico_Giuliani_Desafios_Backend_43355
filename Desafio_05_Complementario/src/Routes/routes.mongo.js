@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import productManager from '../DAOs/mongo/manager/manager.products.mongo.js';
 
+
 const mnrouter = Router();
 const manager = new productManager();
 

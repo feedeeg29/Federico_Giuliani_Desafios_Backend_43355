@@ -1,6 +1,7 @@
 import { Router } from "express";
 const fsrouter = Router();
 import Actions from "../DAOs/fs/Manager/Controllers/controller.js";
+
 const admin = true;
 
 // return a product by id

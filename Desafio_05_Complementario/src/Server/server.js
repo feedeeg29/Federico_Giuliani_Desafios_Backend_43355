@@ -5,6 +5,7 @@ import mnroutes from "../Routes/routes.mongo.js"
 import viewsRoutes from "../Routes/routes.views.js"
 import handlebars from 'express-handlebars'
 import __dirname from '../utils/utils.js'
+import path from 'path'
 
 const app = express()
 
@@ -17,11 +18,16 @@ const connection = await mongoose.connect('mongodb+srv://giulianifederic0:fede43
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+
 //handlebars config
 
 app.engine("handlebars", handlebars.engine({ defaultLayout: 'main', extname: '.handlebars' }))
 app.use(express.static(`${__dirname}/public`))
 app.set("view engine", "handlebars")
+app.set('views', path.join(__dirname, '..', 'views'));
+
+
 //rutas para el front
 app.use('/', viewsRoutes)
 app.use('/apifs', fsroutes)

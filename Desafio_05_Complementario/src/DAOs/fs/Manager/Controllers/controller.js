@@ -1,6 +1,7 @@
 import products from "../../Models/Products/products.js";
 import carts from "../../Models/Carts/carts.js";
 
+
 class Actions {
   // Product methods
   static async getAll() {

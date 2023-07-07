@@ -1,5 +1,6 @@
 import productModel from "../../mongo/models/model.products.mongo.js";
 
+
 class productManager {
     getAll = async () => {
         try {
