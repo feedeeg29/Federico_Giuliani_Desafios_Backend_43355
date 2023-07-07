@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
 
 router.get('/realTimeProducts', async (req, res) => {
     const products = await manager.getProducts();
-    res.render('realtimeproducts', { products: products });
+    res.render('realTimeProducts', { products, layout: 'realTimeProducts' });
 });
 
 
@@ -41,6 +41,16 @@ router.get('/products/:pid', async (req, res) => {
     }
 });
 
+// En tu archivo de rutas ("/routes/routes.js")
+router.post('/products/:id', async (req, res) => {
+    const productId = req.params.id;
+    try {
+        await manager.removeProductById(productId);
+        res.redirect('/realTimeProducts');
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
 //ruta eliminar producto por id
 router.delete('/products/:pid', async (req, res) => {
     const productId = req.params.pid;

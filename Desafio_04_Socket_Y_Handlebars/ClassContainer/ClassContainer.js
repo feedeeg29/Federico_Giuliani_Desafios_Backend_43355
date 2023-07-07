@@ -1,11 +1,12 @@
 const fs = require("fs");
-
+const io = require('socket.io')
 
 class ProductManager {
     constructor(file) {
         this.file = `File/${file}.JSON`;
         this.products = [];
         this.nextId = 1;
+        this.initializeSocket();
     }
 
     async addProduct(product) {
