@@ -2,7 +2,9 @@ import express from 'express';
 import mongoose from 'mongoose';
 import fsroutes from "../Routes/routes.fs.js";
 import mnroutes from "../Routes/routes.mongo.js"
-
+import viewsRoutes from "../Routes/routes.views.js"
+import handlebars from 'express-handlebars'
+import __dirname from '../utils/utils.js'
 
 const app = express()
 
@@ -15,9 +17,16 @@ const connection = await mongoose.connect('mongodb+srv://giulianifederic0:fede43
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/', fsroutes)
+//handlebars config
+
+app.engine("handlebars", handlebars.engine({ defaultLayout: 'main', extname: '.handlebars' }))
+app.use(express.static(`${__dirname}/public`))
+app.set("view engine", "handlebars")
+//rutas para el front
+app.use('/', viewsRoutes)
+app.use('/apifs', fsroutes)
 app.use('/apimongo', mnroutes)
-app.use((req, res, next) => {
+/*app.use((req, res, next) => {
   res.status(404).send(`
                         <h1 style="text-align: center;">
                           { error: 404, message: ruta "${req.url}" no encontrada}
@@ -26,7 +35,7 @@ app.use((req, res, next) => {
                           <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://httpstatusdogs.com/404-not-found" alt="Error 404 page not found"/>
                         </div>
                       `)
-})
+})*/
 // Server conectado exitosamente
 const server = app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 // Server con error
