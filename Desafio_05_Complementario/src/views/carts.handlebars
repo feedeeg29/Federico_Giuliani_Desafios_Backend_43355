@@ -1,8 +1,11 @@
 {{#each carts}}
 <div>
-    <p>id: {{_id}}</p>
+    <p>Cart Id: {{_id}}</p>
     {{#each items}}
-    <p>item: {{productId}}</p>
+    <p>Producto: {{title}}</p>
+    <p>Id del Producto: {{productId}}</p>
+    <p>quantity: {{quantity}}</p>
+
     {{/each}}
 </div>
 {{/each}}
