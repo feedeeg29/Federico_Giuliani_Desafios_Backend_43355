@@ -8,6 +8,7 @@ const manager = new productManager();
 mnrouter.get('/all', async (req, res) => {
     try {
         const products = await manager.getAll()
+        console.log(products)
         res.json({ status: 200, data: products })
     }
     catch (err) {
@@ -27,8 +28,8 @@ mnrouter.get("/:id", async (req, res) => {
 })
 
 mnrouter.post("/", async (req, res) => {
-    const { name, timestamp, description, code, photo, price, stock } = req.body;
-    if (!name || !timestamp || !description || !code || !photo || !price || !stock) {
+    const { name, description, code, thumbnail, price, stock } = req.body;
+    if (!name || !description || !code || !thumbnail || !price || !stock) {
         return res.json({ status: 400, err: "Faltan datos" })
     }
     const product = req.body;
@@ -38,10 +39,7 @@ mnrouter.post("/", async (req, res) => {
 
 mnrouter.put("/:id", async (req, res) => {
     const { id } = req.params;
-    const { name, timestamp, description, code, photo, price, stock } = req.body;
-    if (!name || !timestamp || !description || !code || !photo || !price || !stock) {
-        return res.json({ status: 400, err: "Faltan datos" })
-    }
+    const { name, description, code, thumbnail, price, stock } = req.body;
     const product = req.body;
     await manager.updateProduct(id, product)
     res.json({ status: 200, data: product })

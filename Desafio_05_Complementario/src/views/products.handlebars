@@ -1,14 +1,19 @@
+<h1>Lista de productos</h1>
 <div>
     <h1>
         {{#each products}}
         <div>
-            <h2>Name: {{name}}</h2>
-            <h3>Price: {{price}}</h3>
-            <h3>Category: {{category}}</h3>
-            <h3>Image: {{image}}</h3>
-            <h3>Created: {{timestamp}}</h3>
-            <h3>stock: {{stock}}</h3>
+            <p>Name: {{name}}</h2>
+            <p>Description: {{description}}</p>
+            <p>Price: {{price}}</p>
+            <p>Category: {{category}}</p>
+            <img>Image: {{thumbnail}}</img>
+            <p>stock: {{stock}}</p>
+            <p>ID: {{_id}}</p>
+            <a href="product/{{_id}}"> Ir al producto</a>
         </div>
         {{/each}}
     </h1>
 </div>
+<script src="/socket.io/socket.io.js"></script>
+<script type="module" src="/main.js"></script>

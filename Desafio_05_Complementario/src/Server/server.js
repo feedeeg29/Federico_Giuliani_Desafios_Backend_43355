@@ -6,6 +6,7 @@ import viewsRoutes from "../Routes/routes.views.js"
 import handlebars from 'express-handlebars'
 import __dirname from '../utils/utils.js'
 import path from 'path'
+import cartMongoRoutes from '../Routes/cart.mongo.routes.js'
 
 const app = express()
 
@@ -22,26 +23,35 @@ app.use(express.urlencoded({ extended: true }));
 
 //handlebars config
 
-app.engine("handlebars", handlebars.engine({ defaultLayout: 'main', extname: '.handlebars' }))
+app.engine("handlebars", handlebars.engine({ defaultLayout: 'home', extname: '.handlebars' }))
 app.use(express.static(`${__dirname}/public`))
+//app.use(express.static(`src/public/`))
 app.set("view engine", "handlebars")
 app.set('views', path.join(__dirname, '..', 'views'));
 
 
 //rutas para el front
 app.use('/', viewsRoutes)
+app.use('/products', viewsRoutes)
+app.use('/addproducts', viewsRoutes)
+app.use('/carts', viewsRoutes)
+app.use('/products/product/:id', viewsRoutes)
 app.use('/apifs', fsroutes)
 app.use('/apimongo', mnroutes)
-/*app.use((req, res, next) => {
+app.use('/cartmongo', cartMongoRoutes)
+app.use((req, res, next) => {
+  /* solo descomentar este codigo durante las pruebas
+  const youtubeURL = "https://youtu.be/7aMOurgDB-o?t=60"
+  res.redirect(youtubeURL)*/
   res.status(404).send(`
                         <h1 style="text-align: center;">
-                          { error: 404, message: ruta "${req.url}" no encontrada}
+                          error: 404, message: ruta "${req.url}" no encontrada
                         </h1>
                         <div>
-                          <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://httpstatusdogs.com/404-not-found" alt="Error 404 page not found"/>
+                          <img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="../public/errors/404.jpg" alt="Error 404 page not found"/>
                         </div>
                       `)
-})*/
+})
 // Server conectado exitosamente
 const server = app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 // Server con error
