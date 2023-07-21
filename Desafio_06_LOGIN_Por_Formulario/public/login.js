@@ -24,7 +24,7 @@ loginForm.addEventListener('submit', async (e) => {
 
         const responseData = await response.json();
         if (responseData.status === 'success') {
-            window.location.replace('/products');
+            window.location.replace('/profile');
         }
     } catch (error) {
         console.error('Error al procesar la solicitud:', error.message);

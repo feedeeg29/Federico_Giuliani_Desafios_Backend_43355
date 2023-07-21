@@ -13,12 +13,21 @@ userMongoRoutes.get("/", async (req, res) => {
 });
 userMongoRoutes.post("/register", async (req, res) => {
     try {
-        const user = await userManager.createUser(req.body);
-        res.send({ status: 200, payload: user });
+        const { email, password } = req.body;
+        let role = 'user';
+        if (email === 'adminCoder@coder.com' && password === 'adminCod3r123') {
+            role = 'admin';
+        }
+
+        const user = await userManager.createUser({ ...req.body, role });
+        res.send({ status: 'success', payload: user });
     } catch (err) {
         res.json({ status: 500, err: err.message });
     }
 });
+
+
+// actualizar un usuario -- email requerido
 userMongoRoutes.put("/:email", async (req, res) => {
     try {
         const email = req.params.email;
@@ -29,16 +38,20 @@ userMongoRoutes.put("/:email", async (req, res) => {
         res.json({ status: 500, err: err.message });
     }
 });
+
+// Iniciar sesion
 userMongoRoutes.post("/login", async (req, res) => {
     const { email, password } = req.body;
     try {
         const user = await userManager.getUserByEmail(email, password);
+        console.log(user)
         if (!user) return res.status(400).send({ status: "error", error: "Credenciales invalidas" });
 
         if (req.session) {
             req.session.user = {
                 name: `${user.first_name} ${user.last_name}`,
-                email: user.email
+                email: user.email,
+                role: user.role,
             };
         } else {
             console.log("Error en la sesión");
@@ -52,8 +65,22 @@ userMongoRoutes.post("/login", async (req, res) => {
 
 
 
+// Cerrar sesion
+userMongoRoutes.post("/logout", (req, res) => {
+    try {
+        req.session.destroy((err) => {
+            if (err) {
+                res.json({ status: 500, err: err.message });
+            } else {
+                res.sendStatus(200);
+            }
+        });
+    } catch (err) {
+        res.json({ status: 500, err: err.message });
+    }
+});
 
-
+//Eliminar un usurio -- Email requerido
 userMongoRoutes.delete("/:email", async (req, res) => {
     try {
         const email = req.params.email;

@@ -53,6 +53,9 @@ viewsRoutes.get('/login', (req, res) => {
 viewsRoutes.get('/register', (req, res) => {
     res.render('register');
 });
+viewsRoutes.get('/profile', (req, res) => {
+    res.render('profile');
+});
 
 
 

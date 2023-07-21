@@ -53,6 +53,7 @@ app.use('/carts', viewsRoutes)
 app.use('/products/product/:id', viewsRoutes)
 app.use('/login', viewsRoutes)
 app.use('/register', viewsRoutes)
+app.use('/profile', viewsRoutes)
 
 //rutas backend-only
 app.use('/apifs', fsroutes)
