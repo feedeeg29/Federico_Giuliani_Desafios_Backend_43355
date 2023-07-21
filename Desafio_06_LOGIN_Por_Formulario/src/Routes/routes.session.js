@@ -44,7 +44,7 @@ userMongoRoutes.post("/login", async (req, res) => {
     const { email, password } = req.body;
     try {
         const user = await userManager.getUserByEmail(email, password);
-        console.log(user)
+        //console.log(user)
         if (!user) return res.status(400).send({ status: "error", error: "Credenciales invalidas" });
 
         if (req.session) {
