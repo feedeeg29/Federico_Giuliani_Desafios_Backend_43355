@@ -17,14 +17,15 @@ const initializePassport = () => {
             },
             async (accessToken, refreshToken, profile, done) => {
                 try {
-                    const user = await userManager.getUserByEmail({ email: profile._json.email });
-                    console.log(user)
+                    const user = await userManager.getUserByEmail(profile._json.email);
+                    console.log(profile)
+                    if (user) { console.log(user) } else { console.log("no hay usuario") }
                     if (!user) {
                         const newUser = {
                             first_name: profile._json.name.split(" ")[0],
                             last_name: profile._json.name.split(" ")[2],
                             email: profile._json.email,
-                            password: "",
+                            password: bcrypt.hashSync("zH2kjobi", bcrypt.genSaltSync(10)),
                         };
                         const result = await userManager.createUser(newUser);
                         return done(null, result);
@@ -46,7 +47,6 @@ const initializePassport = () => {
         const user = await userManager.getUserById(id);
         done(null, user);
     });
-
 };
 
 export default initializePassport;
