@@ -1,15 +1,16 @@
 import { Router } from 'express';
-import productManager from '../DAOs/mongo/manager/manager.products.mongo.js';
+
+import { daoFactory } from '../DAOs/Factory/dao.factory.js';
 
 
 const mnrouter = Router();
-const manager = new productManager();
 
+const actions = daoFactory.currentDAO
 
 //Endpoint para traer todos los productos 
 mnrouter.get('/all', async (req, res) => {
     try {
-        const products = await manager.getAll(req, res, req.query)
+        const products = await currentDAO.getAll(req, res, req.query)
         console.log(products)
         res.json({ status: 200, data: products })
     }
@@ -23,7 +24,7 @@ mnrouter.get('/all', async (req, res) => {
 mnrouter.get("/:id", async (req, res) => {
     const { id } = req.params;
     try {
-        const product = await manager.getOne(id)
+        const product = await currentDAO.getOne(id)
         res.json({ status: 200, data: product })
     }
     catch (err) {
@@ -39,7 +40,7 @@ mnrouter.post("/", async (req, res) => {
         return res.json({ status: 400, err: "Faltan datos" })
     }
     const product = req.body;
-    await manager.createProduct(product)
+    await actions.createProduct(product)
     res.json({ status: 200, data: product })
 })
 
@@ -49,7 +50,7 @@ mnrouter.put("/:id", async (req, res) => {
     const { id } = req.params;
     const { name, description, code, thumbnail, price, stock } = req.body;
     const product = req.body;
-    await manager.updateProduct(id, product)
+    await actions.updateProduct(id, product)
     res.json({ status: 200, data: product })
 })
 
@@ -57,7 +58,7 @@ mnrouter.put("/:id", async (req, res) => {
 //Endpoint para eliminar un producto -- ID requerido
 mnrouter.delete("/:id", async (req, res) => {
     const { id } = req.params;
-    await manager.deleteProduct(id)
+    await actions.deleteProduct(id)
     res.send(204)
 })
 

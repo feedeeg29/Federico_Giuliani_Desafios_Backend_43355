@@ -1,7 +1,7 @@
 import userModel from '../models/model.users.js';
 
 class UserManager {
-    async getUsers() {
+    static async getUsers() {
         try {
             const users = await userModel.find();
             return users;
@@ -9,7 +9,7 @@ class UserManager {
             throw new Error('Error al obtener todos los usuarios: ' + err.message);
         }
     }
-    async createUser(userData) {
+    static async createUser(userData) {
         try {
             const user = await userModel.create(userData);
             return user;
@@ -17,7 +17,7 @@ class UserManager {
             throw new Error('Error al crear el usuario: ' + err.message);
         }
     }
-    async getUserById(id) {
+    static async getUserById(id) {
         try {
             const user = await userModel.findById(id);
             return user;
@@ -25,7 +25,7 @@ class UserManager {
             throw new Error('Error al obtener el usuario por su id: ' + err.message);
         }
     }
-    async getUserByEmailAndPassword(email, password) {
+    static async getUserByEmailAndPassword(email, password) {
         try {
             const user = await userModel.findOne({ email, password });
             return user;
@@ -33,7 +33,7 @@ class UserManager {
             throw new Error('Error al obtener el usuario por sus credenciales: ' + err.message);
         }
     }
-    async getUserByEmail(email) {
+    static async getUserByEmail(email) {
         try {
             const user = await userModel.findOne({ email });
             return user;
@@ -43,7 +43,7 @@ class UserManager {
     }
 
 
-    async updateUserByEmail(email, userData) {
+    static async updateUserByEmail(email, userData) {
         try {
             const updatedUser = await userModel.findOneAndUpdate({ email }, userData, { new: true });
             return updatedUser;
@@ -53,7 +53,7 @@ class UserManager {
     }
 
 
-    async deleteUser(email) {
+    static async deleteUser(email) {
         try {
             const deletedUser = await userModel.findOneAndDelete({ email });
             return deletedUser;

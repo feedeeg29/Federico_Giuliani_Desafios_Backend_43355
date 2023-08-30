@@ -4,6 +4,7 @@ import Contenedor from '../../Manager/Container/container.js';
 
 let contenedor = new Contenedor('./public/products.json');
 
+
 async function getAllProducts() {
     const data = await fs.promises.readFile('./public/products.json')
     const array = JSON.parse(data);
@@ -20,7 +21,7 @@ async function getProduct(id) {
     }
 }
 
-const addProduct = (product) => {
+async function addProduct(product) {
     const prod = {
         name: product.name ?? '',
         timestamp: Date.now(),
@@ -60,5 +61,6 @@ async function deleteProduct(id) {
         return 'Producto no encontrado'
     }
 }
-const products = { getAllProducts, getProduct, addProduct, updateProduct, deleteProduct }
-export default products
+
+const productManager = { updateProduct, deleteProduct, getAllProducts, deleteProduct, addProduct }
+module.exports = productManager

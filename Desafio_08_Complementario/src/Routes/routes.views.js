@@ -1,11 +1,18 @@
 import { Router } from 'express';
-import productManager from '../DAOs/mongo/manager/manager.products.mongo.js';
-import cartManager from '../DAOs/mongo/manager/manager.carts.mongo.js';
+
+import { daoFactory } from '../DAOs/Factory/dao.factory.js';
+import Actions from '../Controller/actions.mongo.js'; // Importa la clase Actions desde la ubicación correcta
+
+
+// Obtener el DAO adecuado
+const currentDAO = daoFactory; // Sin .currentDAO()
+
+// Crear una instancia de Actions con el DAO adecuado
+const actions = new Actions(currentDAO);
 
 //instancio los managers
 const viewsRoutes = Router();
-const manager = new productManager();
-const cManager = new cartManager();
+
 
 // ruta base
 viewsRoutes.get('/', (req, res) => {
@@ -17,12 +24,12 @@ viewsRoutes.get('/', (req, res) => {
 
 //Ruta para renderizar todos los cart
 viewsRoutes.get('/carts', async (req, res) => {
-    const { carts, hasNextPage, hasPrevPage, nextPage, prevPage } = await cManager.getAllCarts(req, res, req.query);
+    const { carts, hasNextPage, hasPrevPage, nextPage, prevPage } = await actions.getAllCarts(req, res, req.query);
     res.render('carts', { carts, hasNextPage, hasPrevPage, nextPage, prevPage });
 });
 //Ruta para renderizar un cart -- ID requerido
 viewsRoutes.get('/cart', async (req, res) => {
-    const cart = await cManager.getOneCart(req.params.id);
+    const cart = await actions.getOneCart(req.params.id);
     res.render('cart', { cart });
 });
 
@@ -30,13 +37,13 @@ viewsRoutes.get('/cart', async (req, res) => {
 
 //Ruta para renderizar todos los productos
 viewsRoutes.get('/products', async (req, res) => {
-    const { products, hasNextPage, hasPrevPage, nextPage, prevPage } = await manager.getAll(req, res, req.query);
+    const { products, hasNextPage, hasPrevPage, nextPage, prevPage } = await actions.getAll(req, res, req.query);
     res.render('products', { products, hasNextPage, hasPrevPage, nextPage, prevPage });
 });
 
 //Ruta para renderizar un producto -- ID requerido
 viewsRoutes.get('/product/:id', async (req, res) => {
-    const product = await manager.getOne(req.params.id);
+    const product = await actions.getOne(req.params.id);
     res.render('product', { product });
 });
 

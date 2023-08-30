@@ -1,6 +1,8 @@
 import { Router } from "express";
+
 const fsrouter = Router();
-import Actions from "../DAOs/fs/Manager/Controllers/controller.js";
+
+import Actions from "../Controller/actions.fs.js";
 
 const admin = true;
 

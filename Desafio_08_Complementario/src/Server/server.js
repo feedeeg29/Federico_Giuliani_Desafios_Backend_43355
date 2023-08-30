@@ -1,5 +1,4 @@
 import express from 'express';
-import mongoose from 'mongoose';
 import fsroutes from "../Routes/routes.fs.js";
 import mnroutes from "../Routes/routes.mongo.js"
 import viewsRoutes from "../Routes/routes.views.js"
@@ -12,35 +11,39 @@ import cookieParser from 'cookie-parser';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
 import passport from 'passport';
-import { generateToken, verifyToken } from '..//utils/jwt.config.js'
-import initializePassport from '..//utils/passport.config.js';
+import initializePassport from '../utils/PassportConnection/passport.config.js';
+import { URI } from '../db/mongo.db.js';
+import { secret, PORT, persistence } from '../utils/dotenv/dotenv.config.js'
 
 
 const app = express()
 
-const PORT = process.env.PORT || 8080
 
 
-const connection = await mongoose.connect('mongodb+srv://giulianifederic0:fede43355@backend43355.w4nu7mi.mongodb.net/?retryWrites=true&w=majority')
+
+
 
 //middleware
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser())
-app.use(session({
-  store: new MongoStore({
-    mongoUrl: 'mongodb+srv://giulianifederic0:fede43355@backend43355.w4nu7mi.mongodb.net/?retryWrites=true&w=majority',
-    ttl: 7200,
-  }),
-  secret: 'f3d3s3cr3t',
-  resave: false,
-  saveUninitialized: false
-}))
+if (persistence == 'mongo') {
+  app.use(session({
+    store: new MongoStore({
+      mongoUrl: URI,
+      ttl: 7200,
+    }),
+    secret: secret,
+    resave: false,
+    saveUninitialized: false
+  }))
+  initializePassport();
+  app.use(passport.initialize());
+  app.use(passport.session());
+}
 
-initializePassport();
-app.use(passport.initialize());
-app.use(passport.session());
+
 
 
 //handlebars config
@@ -74,7 +77,7 @@ app.use((req, res, next) => {
   const youtubeURL = "https://youtu.be/7aMOurgDB-o?t=60"
   res.redirect(youtubeURL)*/
   res.status(404).render("404")
-  })
+})
 // Server conectado exitosamente
 const server = app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 // Server con error

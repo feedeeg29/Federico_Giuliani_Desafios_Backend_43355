@@ -1,8 +1,9 @@
-import products from "../../Models/Products/products.js";
-import carts from "../../Models/Carts/carts.js";
+import products from "../DAOs/fs/Models/Products/products.memory.js";
+import carts from "../DAOs/fs/Models/Carts/carts.memory.js";
 
 
 class Actions {
+
   // Product methods
   static async getAll() {
     const data = await products.getAllProducts()
@@ -30,8 +31,7 @@ class Actions {
   }
 
   static async getCartProducts(id) {
-    const carrito = await cart.getCart(id);
-
+    const carrito = await carts.getCart(id);
     const array = carrito.products
     return array;
   }
