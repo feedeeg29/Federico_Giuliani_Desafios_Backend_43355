@@ -9,12 +9,12 @@ class ActionsMongo {
     // Métodos de productos
     static async getAll(req, res) {
         try {
-            const data = await ProductManager.getAll(req, req.query);
-            developmentLogger.debug("aca llegamos")
-            return data
+            const { products, hasNextPage, hasPrevPage, nextPage, prevPage } = await ProductManager.getAll(req, res, req.query);
+            res.render('products', { products, hasNextPage, hasPrevPage, nextPage, prevPage });
+            //return data
         } catch (err) {
             developmentLogger.fatal(err)
-            res.status(500)({ status: 500, err: err.message });
+            res.json({ status: 500, err: err.message });
         }
     }
 

@@ -54,3 +54,1669 @@
 [36minfo[39m: [36mPrueba de información.[39m
 [33mwarning[39m: [33mprueba de advertencia.[39m
 [31merror[39m: [31mprueba de error.[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[34mdebug[39m: [34maca llegamos[39m
+[34mdebug[39m: [34maca llegamos[39m
+[34mdebug[39m: [34maca llegamos[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[34mdebug[39m: [34maca llegamos[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[34mdebug[39m: [34maca llegamos[39m
+[34mdebug[39m: [34m[[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: '3',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3920149006516224',[39m
+[34m    price: 77568,[39m
+[34m    stock: 891[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'b',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8124401815912448',[39m
+[34m    price: 65443,[39m
+[34m    stock: 258[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'g',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5458088102461440',[39m
+[34m    price: 91801,[39m
+[34m    stock: 913[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: '1',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/RJqTtjhB/640/480',[39m
+[34m    price: 59371,[39m
+[34m    stock: 858[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: '2',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/TCBxY/640/480',[39m
+[34m    price: 80684,[39m
+[34m    stock: 392[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: '0',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/pPuXSbx/640/480',[39m
+[34m    price: 61420,[39m
+[34m    stock: 937[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'q',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2802039929176064',[39m
+[34m    price: 84112,[39m
+[34m    stock: 743[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'h',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/FtdboD3/640/480',[39m
+[34m    price: 75652,[39m
+[34m    stock: 948[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'w',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8689459646169088',[39m
+[34m    price: 89188,[39m
+[34m    stock: 108[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'V',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/g9ssHmgBSK/640/480',[39m
+[34m    price: 8574,[39m
+[34m    stock: 372[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2468719563374592',[39m
+[34m    price: 21501,[39m
+[34m    stock: 345[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'L',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/ZnYlPB/640/480',[39m
+[34m    price: 16467,[39m
+[34m    stock: 278[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3755325972807680',[39m
+[34m    price: 87495,[39m
+[34m    stock: 171[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'I',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/qle32/640/480',[39m
+[34m    price: 87483,[39m
+[34m    stock: 50[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'C',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/7ZTJMF/640/480',[39m
+[34m    price: 55680,[39m
+[34m    stock: 408[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: '9',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/NCOetKUfK/640/480',[39m
+[34m    price: 14620,[39m
+[34m    stock: 715[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'g',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3674137077743616',[39m
+[34m    price: 76097,[39m
+[34m    stock: 905[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'N',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3169774752235520',[39m
+[34m    price: 32782,[39m
+[34m    stock: 550[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'P',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/62glfIjN/640/480',[39m
+[34m    price: 69232,[39m
+[34m    stock: 207[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'a',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6422158297268224',[39m
+[34m    price: 6600,[39m
+[34m    stock: 868[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1230633007316992',[39m
+[34m    price: 80096,[39m
+[34m    stock: 172[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/FYeaVT/640/480',[39m
+[34m    price: 62334,[39m
+[34m    stock: 660[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5270767493185536',[39m
+[34m    price: 39654,[39m
+[34m    stock: 955[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/aniAMFd/640/480',[39m
+[34m    price: 75982,[39m
+[34m    stock: 722[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2843930297106432',[39m
+[34m    price: 20973,[39m
+[34m    stock: 386[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: '4',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/H3Lo4OJWy/640/480',[39m
+[34m    price: 91026,[39m
+[34m    stock: 593[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/hZX8qn7/640/480',[39m
+[34m    price: 85412,[39m
+[34m    stock: 363[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'v',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1923625747742720',[39m
+[34m    price: 21786,[39m
+[34m    stock: 671[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'v',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/fsMkUD/640/480',[39m
+[34m    price: 54459,[39m
+[34m    stock: 58[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 's',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6579969922695168',[39m
+[34m    price: 63082,[39m
+[34m    stock: 472[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'I',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/SDFZCa5SpJ/640/480',[39m
+[34m    price: 73913,[39m
+[34m    stock: 623[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7516467801096192',[39m
+[34m    price: 81460,[39m
+[34m    stock: 163[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6338353781800960',[39m
+[34m    price: 86832,[39m
+[34m    stock: 162[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: '4',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1356090440679424',[39m
+[34m    price: 35224,[39m
+[34m    stock: 581[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'c',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3266254760574976',[39m
+[34m    price: 50044,[39m
+[34m    stock: 767[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'o',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/O4fSnyJG/640/480',[39m
+[34m    price: 17993,[39m
+[34m    stock: 120[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'r',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6231752540422144',[39m
+[34m    price: 25202,[39m
+[34m    stock: 942[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'v',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/hzHH5/640/480',[39m
+[34m    price: 15141,[39m
+[34m    stock: 139[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'O',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/qyXzFt/640/480',[39m
+[34m    price: 59839,[39m
+[34m    stock: 562[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: '0',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6970945585545216',[39m
+[34m    price: 10272,[39m
+[34m    stock: 507[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'V',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2867443850543104',[39m
+[34m    price: 86950,[39m
+[34m    stock: 995[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5074923433230336',[39m
+[34m    price: 23790,[39m
+[34m    stock: 677[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'm',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/AU7ge/640/480',[39m
+[34m    price: 96681,[39m
+[34m    stock: 480[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'y',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4192137943973888',[39m
+[34m    price: 78101,[39m
+[34m    stock: 237[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/HndxTk9up7/640/480',[39m
+[34m    price: 53745,[39m
+[34m    stock: 109[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'D',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=53730168799232',[39m
+[34m    price: 54447,[39m
+[34m    stock: 902[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=750693510021120',[39m
+[34m    price: 11103,[39m
+[34m    stock: 789[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'v',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/NK1tlDJ/640/480',[39m
+[34m    price: 98626,[39m
+[34m    stock: 204[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Cheese',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'Q',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/ZUN9k/640/480',[39m
+[34m    price: 25643,[39m
+[34m    stock: 114[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'y',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/ewYvWPR1/640/480',[39m
+[34m    price: 17694,[39m
+[34m    stock: 882[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'g',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/iTD80/640/480',[39m
+[34m    price: 24206,[39m
+[34m    stock: 134[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Cheese',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'r',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6444633483640832',[39m
+[34m    price: 5574,[39m
+[34m    stock: 543[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4727241170747392',[39m
+[34m    price: 42340,[39m
+[34m    stock: 815[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'Z',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/WvMTkSW/640/480',[39m
+[34m    price: 31426,[39m
+[34m    stock: 798[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: '5',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7093196450430976',[39m
+[34m    price: 7654,[39m
+[34m    stock: 575[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: '5',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/6MHrmN5/640/480',[39m
+[34m    price: 36031,[39m
+[34m    stock: 803[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8911452266037248',[39m
+[34m    price: 47964,[39m
+[34m    stock: 208[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Kha5peW/640/480',[39m
+[34m    price: 25160,[39m
+[34m    stock: 459[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/FT2lt/640/480',[39m
+[34m    price: 70116,[39m
+[34m    stock: 189[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'V',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/1ZZT5x/640/480',[39m
+[34m    price: 77893,[39m
+[34m    stock: 123[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Sausages',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'v',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6817710803517440',[39m
+[34m    price: 65185,[39m
+[34m    stock: 180[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: '7',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/LRZnWfI/640/480',[39m
+[34m    price: 78302,[39m
+[34m    stock: 701[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Sausages',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: '1',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3471154127831040',[39m
+[34m    price: 8054,[39m
+[34m    stock: 688[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'D',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/PGmpzUw/640/480',[39m
+[34m    price: 76248,[39m
+[34m    stock: 681[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'X',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/lKrYsjOdmU/640/480',[39m
+[34m    price: 80273,[39m
+[34m    stock: 144[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'd',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/SCTNPnR/640/480',[39m
+[34m    price: 54962,[39m
+[34m    stock: 327[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: '5',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2491218080563200',[39m
+[34m    price: 481,[39m
+[34m    stock: 754[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'I',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/6EIZx2/640/480',[39m
+[34m    price: 7682,[39m
+[34m    stock: 365[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Sausages',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'H',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/x2bM22Egjy/640/480',[39m
+[34m    price: 95691,[39m
+[34m    stock: 89[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3218439806124032',[39m
+[34m    price: 8137,[39m
+[34m    stock: 901[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'w',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1129918006034432',[39m
+[34m    price: 84675,[39m
+[34m    stock: 449[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: 'l',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7792213215936512',[39m
+[34m    price: 74245,[39m
+[34m    stock: 277[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'c',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5251764844494848',[39m
+[34m    price: 37626,[39m
+[34m    stock: 942[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/oPn86p/640/480',[39m
+[34m    price: 53808,[39m
+[34m    stock: 53[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'T',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8343780549722112',[39m
+[34m    price: 35734,[39m
+[34m    stock: 56[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=770938790477824',[39m
+[34m    price: 75896,[39m
+[34m    stock: 108[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'S',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=25352235646976',[39m
+[34m    price: 2404,[39m
+[34m    stock: 819[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/DOs0Cj/640/480',[39m
+[34m    price: 2631,[39m
+[34m    stock: 18[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'f',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6361072392994816',[39m
+[34m    price: 7186,[39m
+[34m    stock: 684[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'L',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/48NwkpNkmF/640/480',[39m
+[34m    price: 47243,[39m
+[34m    stock: 71[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: '2',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5675228871000064',[39m
+[34m    price: 40955,[39m
+[34m    stock: 325[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/jEXcOtaI/640/480',[39m
+[34m    price: 7519,[39m
+[34m    stock: 848[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'd',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/6N86o5iZq/640/480',[39m
+[34m    price: 95404,[39m
+[34m    stock: 288[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=802819120562176',[39m
+[34m    price: 27796,[39m
+[34m    stock: 566[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'W',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/kbmeVySw/640/480',[39m
+[34m    price: 59183,[39m
+[34m    stock: 979[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'W',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3844223545638912',[39m
+[34m    price: 82620,[39m
+[34m    stock: 283[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/KF5bac4hW6/640/480',[39m
+[34m    price: 47392,[39m
+[34m    stock: 752[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'X',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=602993781112832',[39m
+[34m    price: 22323,[39m
+[34m    stock: 302[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'k',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/p0OMwB/640/480',[39m
+[34m    price: 42235,[39m
+[34m    stock: 742[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Cheese',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'Z',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6966277084020736',[39m
+[34m    price: 27890,[39m
+[34m    stock: 52[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4918871555309568',[39m
+[34m    price: 43751,[39m
+[34m    stock: 786[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/SzOBjENkeR/640/480',[39m
+[34m    price: 63172,[39m
+[34m    stock: 968[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: '7',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3327417638715392',[39m
+[34m    price: 12366,[39m
+[34m    stock: 918[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'u',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/6n2jk/640/480',[39m
+[34m    price: 77050,[39m
+[34m    stock: 907[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'c',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/TXfDzA/640/480',[39m
+[34m    price: 72287,[39m
+[34m    stock: 287[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/i4D6oSz/640/480',[39m
+[34m    price: 22780,[39m
+[34m    stock: 280[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'I',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/qLNY7nP8/640/480',[39m
+[34m    price: 69060,[39m
+[34m    stock: 690[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'm',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6105177455067136',[39m
+[34m    price: 32964,[39m
+[34m    stock: 488[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Ixb3tf1/640/480',[39m
+[34m    price: 491,[39m
+[34m    stock: 214[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'E',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6473461885042688',[39m
+[34m    price: 99453,[39m
+[34m    stock: 890[39m
+[34m  }[39m
+[34m][39m
+[34mdebug[39m: [34maca llegamos[39m
+[34mdebug[39m: [34maca llegamos[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[34mdebug[39m: [34maca llegamos[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[34mdebug[39m: [34m[[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: 'q',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=163500057952256',[39m
+[34m    price: 92875,[39m
+[34m    stock: 969[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'm',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7133199467544576',[39m
+[34m    price: 35082,[39m
+[34m    stock: 203[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'B',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/AJ1Wzd/640/480',[39m
+[34m    price: 33888,[39m
+[34m    stock: 4[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'Y',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/qq3LMjev/640/480',[39m
+[34m    price: 81709,[39m
+[34m    stock: 78[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'f',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7482464672940032',[39m
+[34m    price: 17338,[39m
+[34m    stock: 349[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: '5',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/daX8jrdMWU/640/480',[39m
+[34m    price: 13918,[39m
+[34m    stock: 943[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'l',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/FFhNbV9/640/480',[39m
+[34m    price: 38746,[39m
+[34m    stock: 673[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'N',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/aeOcD/640/480',[39m
+[34m    price: 28607,[39m
+[34m    stock: 296[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6804651856887808',[39m
+[34m    price: 24234,[39m
+[34m    stock: 50[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'k',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1563896380915712',[39m
+[34m    price: 52060,[39m
+[34m    stock: 239[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chips',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'R',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Pu2OuBqb/640/480',[39m
+[34m    price: 69221,[39m
+[34m    stock: 88[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/vzpyVVkx/640/480',[39m
+[34m    price: 5801,[39m
+[34m    stock: 840[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8373493922004992',[39m
+[34m    price: 35884,[39m
+[34m    stock: 908[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/GiGb1r2O/640/480',[39m
+[34m    price: 93887,[39m
+[34m    stock: 897[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'i',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/06VGk/640/480',[39m
+[34m    price: 27899,[39m
+[34m    stock: 219[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'L',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Fad1u4Kxo/640/480',[39m
+[34m    price: 88803,[39m
+[34m    stock: 959[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'x',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4698684990160896',[39m
+[34m    price: 30523,[39m
+[34m    stock: 438[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'P',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/3ZGmg3W8/640/480',[39m
+[34m    price: 1504,[39m
+[34m    stock: 372[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: '1',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2750471999586304',[39m
+[34m    price: 5676,[39m
+[34m    stock: 611[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=864475747975168',[39m
+[34m    price: 40372,[39m
+[34m    stock: 928[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Cheese',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'w',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/wz3wWbp/640/480',[39m
+[34m    price: 14922,[39m
+[34m    stock: 444[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6210294191751168',[39m
+[34m    price: 93474,[39m
+[34m    stock: 981[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: '0',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/MBaMJWS/640/480',[39m
+[34m    price: 46431,[39m
+[34m    stock: 26[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7762817035796480',[39m
+[34m    price: 14108,[39m
+[34m    stock: 509[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8148389489278976',[39m
+[34m    price: 3595,[39m
+[34m    stock: 37[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'P',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/ChnIE/640/480',[39m
+[34m    price: 56188,[39m
+[34m    stock: 882[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Car',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4814412967837696',[39m
+[34m    price: 67209,[39m
+[34m    stock: 622[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: '7',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5770079148965888',[39m
+[34m    price: 92955,[39m
+[34m    stock: 145[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6510334743412736',[39m
+[34m    price: 65943,[39m
+[34m    stock: 253[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'd',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7482474437279744',[39m
+[34m    price: 43594,[39m
+[34m    stock: 809[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4105747566690304',[39m
+[34m    price: 27054,[39m
+[34m    stock: 373[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'b',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3482561707769856',[39m
+[34m    price: 32171,[39m
+[34m    stock: 201[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'M',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3294274038792192',[39m
+[34m    price: 56910,[39m
+[34m    stock: 594[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'A',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/JSys8l/640/480',[39m
+[34m    price: 61133,[39m
+[34m    stock: 778[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7085927352500224',[39m
+[34m    price: 74190,[39m
+[34m    stock: 969[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'L',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/j2hGhqg/640/480',[39m
+[34m    price: 29986,[39m
+[34m    stock: 705[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'A',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5690895607267328',[39m
+[34m    price: 14959,[39m
+[34m    stock: 669[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: '0',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/5BoCj5/640/480',[39m
+[34m    price: 91396,[39m
+[34m    stock: 282[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'P',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/xj4yD/640/480',[39m
+[34m    price: 50607,[39m
+[34m    stock: 828[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'S',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Z8P36WHpM/640/480',[39m
+[34m    price: 60892,[39m
+[34m    stock: 779[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8434463006523392',[39m
+[34m    price: 57653,[39m
+[34m    stock: 56[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'T',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5593545528311808',[39m
+[34m    price: 24814,[39m
+[34m    stock: 365[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'E',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/qapn1w/640/480',[39m
+[34m    price: 39083,[39m
+[34m    stock: 525[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'B',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/z8pUKj/640/480',[39m
+[34m    price: 89102,[39m
+[34m    stock: 636[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'N',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2110091547377664',[39m
+[34m    price: 78863,[39m
+[34m    stock: 650[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: '2',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/Fdt4F8/640/480',[39m
+[34m    price: 80017,[39m
+[34m    stock: 744[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/wfSMwG9lNg/640/480',[39m
+[34m    price: 84467,[39m
+[34m    stock: 757[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'P',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/WL334q/640/480',[39m
+[34m    price: 29562,[39m
+[34m    stock: 568[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'R',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=320561496457216',[39m
+[34m    price: 83581,[39m
+[34m    stock: 903[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'Z',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/uBYSQt/640/480',[39m
+[34m    price: 44333,[39m
+[34m    stock: 770[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'f',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/MNuLD3/640/480',[39m
+[34m    price: 83104,[39m
+[34m    stock: 612[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: '1',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1745091462955008',[39m
+[34m    price: 94155,[39m
+[34m    stock: 805[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'O',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/LDJth/640/480',[39m
+[34m    price: 71548,[39m
+[34m    stock: 659[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Cheese',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'T',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3317841893785600',[39m
+[34m    price: 43535,[39m
+[34m    stock: 824[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/9vnuG/640/480',[39m
+[34m    price: 41901,[39m
+[34m    stock: 301[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'Q',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=2610906223607808',[39m
+[34m    price: 32013,[39m
+[34m    stock: 138[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'y',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1906795161321472',[39m
+[34m    price: 93668,[39m
+[34m    stock: 878[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'C',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/GH16z/640/480',[39m
+[34m    price: 65494,[39m
+[34m    stock: 60[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'e',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=1742392520605696',[39m
+[34m    price: 3465,[39m
+[34m    stock: 158[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chicken',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'r',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/3DQByCGPi/640/480',[39m
+[34m    price: 55312,[39m
+[34m    stock: 609[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Sausages',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'f',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=224051781959680',[39m
+[34m    price: 90172,[39m
+[34m    stock: 372[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'G',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7169277727604736',[39m
+[34m    price: 45565,[39m
+[34m    stock: 491[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'u',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/UIK3P6o1j/640/480',[39m
+[34m    price: 98093,[39m
+[34m    stock: 366[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'H',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/CAOwcDWc/640/480',[39m
+[34m    price: 92226,[39m
+[34m    stock: 294[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Gloves',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/JvmxahEJ/640/480',[39m
+[34m    price: 62644,[39m
+[34m    stock: 1000[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3814120029683712',[39m
+[34m    price: 65319,[39m
+[34m    stock: 591[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: '0',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=8154467488759808',[39m
+[34m    price: 59234,[39m
+[34m    stock: 930[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'B',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/aYpee3/640/480',[39m
+[34m    price: 89965,[39m
+[34m    stock: 119[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shoes',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'g',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5119697617944576',[39m
+[34m    price: 62558,[39m
+[34m    stock: 99[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'E',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=712137886400512',[39m
+[34m    price: 75957,[39m
+[34m    stock: 370[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'z',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7449248207470592',[39m
+[34m    price: 57613,[39m
+[34m    stock: 171[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Table',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: '2',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/dWj06/640/480',[39m
+[34m    price: 33777,[39m
+[34m    stock: 250[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'N',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/ZzP3L/640/480',[39m
+[34m    price: 58895,[39m
+[34m    stock: 197[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6043178599710720',[39m
+[34m    price: 79342,[39m
+[34m    stock: 456[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'd',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/bAcOQqLBgh/640/480',[39m
+[34m    price: 42508,[39m
+[34m    stock: 63[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Shirt',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6758793543155712',[39m
+[34m    price: 79722,[39m
+[34m    stock: 601[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Mouse',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'u',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/WQAOA/640/480',[39m
+[34m    price: 47343,[39m
+[34m    stock: 383[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Salad',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: '8',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/vV8OK/640/480',[39m
+[34m    price: 27656,[39m
+[34m    stock: 352[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3124220911419392',[39m
+[34m    price: 50883,[39m
+[34m    stock: 706[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',[39m
+[34m    code: 'g',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/8eKNgLG7F/640/480',[39m
+[34m    price: 53065,[39m
+[34m    stock: 685[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: 'E',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/kOLFNfQwSC/640/480',[39m
+[34m    price: 29004,[39m
+[34m    stock: 171[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bacon',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'e',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/7vFGp5U4pX/640/480',[39m
+[34m    price: 12423,[39m
+[34m    stock: 655[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Tuna',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'p',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4273354546610176',[39m
+[34m    price: 71884,[39m
+[34m    stock: 562[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',[39m
+[34m    code: '5',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/gLXQLI/640/480',[39m
+[34m    price: 77138,[39m
+[34m    stock: 382[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'G',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6253129140011008',[39m
+[34m    price: 38067,[39m
+[34m    stock: 844[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'O',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6295209461678080',[39m
+[34m    price: 65735,[39m
+[34m    stock: 745[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Ball',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: 'f',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/V59Tbu/640/480',[39m
+[34m    price: 70642,[39m
+[34m    stock: 214[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Keyboard',[39m
+[34m    description: 'The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design',[39m
+[34m    code: 'U',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4889383022886912',[39m
+[34m    price: 67784,[39m
+[34m    stock: 103[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Chair',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=5867539435356160',[39m
+[34m    price: 60017,[39m
+[34m    stock: 907[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: 'Z',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/EmWJ5/640/480',[39m
+[34m    price: 22620,[39m
+[34m    stock: 895[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Fish',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'D',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4335864429674496',[39m
+[34m    price: 78676,[39m
+[34m    stock: 553[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'The Football Is Good For Training And Recreational Purposes',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3820293520883712',[39m
+[34m    price: 74820,[39m
+[34m    stock: 646[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Computer',[39m
+[34m    description: 'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',[39m
+[34m    code: 'n',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=4060820461846528',[39m
+[34m    price: 5013,[39m
+[34m    stock: 292[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Towels',[39m
+[34m    description: 'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',[39m
+[34m    code: 'F',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=589514359701504',[39m
+[34m    price: 11282,[39m
+[34m    stock: 386[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Bike',[39m
+[34m    description: 'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',[39m
+[34m    code: 'j',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=3028178773737472',[39m
+[34m    price: 56117,[39m
+[34m    stock: 575[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pants',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'K',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/2JDHSIa/640/480',[39m
+[34m    price: 35676,[39m
+[34m    stock: 147[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Hat',[39m
+[34m    description: 'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',[39m
+[34m    code: 'r',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/WEr3Hgt/640/480',[39m
+[34m    price: 27671,[39m
+[34m    stock: 143[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',[39m
+[34m    code: 'C',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=6000352300105728',[39m
+[34m    price: 66522,[39m
+[34m    stock: 584[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Pizza',[39m
+[34m    description: 'New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart',[39m
+[34m    code: '1',[39m
+[34m    thumbnail: 'https://loremflickr.com/640/480?lock=7765651229769728',[39m
+[34m    price: 39974,[39m
+[34m    stock: 996[39m
+[34m  },[39m
+[34m  {[39m
+[34m    name: 'Soap',[39m
+[34m    description: 'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',[39m
+[34m    code: 'l',[39m
+[34m    thumbnail: 'https://picsum.photos/seed/IXqqttu1/640/480',[39m
+[34m    price: 71272,[39m
+[34m    stock: 871[39m
+[34m  }[39m
+[34m][39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
+[36minfo[39m: [36mServer running on port 8080[39m
+[36minfo[39m: [36mConnected to MongoDB[39m

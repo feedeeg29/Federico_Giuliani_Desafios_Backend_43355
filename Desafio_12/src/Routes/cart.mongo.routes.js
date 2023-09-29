@@ -10,7 +10,6 @@ const cartMongoRoutes = Router();
 cartMongoRoutes.get('/', async (req, res) => {
     try {
         const carts = await ActionsMongo.getAllCarts(req, res, req.query)
-        developmentLogger.info(...carts)
         res.json({ status: 200, data: carts })
     }
     catch (err) {
@@ -22,7 +21,7 @@ cartMongoRoutes.get('/', async (req, res) => {
 cartMongoRoutes.get('/:id', async (req, res) => {
     try {
         const cart = await ActionsMongo.getOneCart(req.params.id)
-        developmentLogger.debug(cart)
+        //developmentLogger.debug(cart)
         res.json({ status: 200, data: cart })
     }
     catch (err) {
@@ -34,7 +33,7 @@ cartMongoRoutes.get('/:id', async (req, res) => {
 cartMongoRoutes.post('/', async (req, res) => {
     try {
         const cart = await ActionsMongo.createCart(req.body)
-        developmentLogger.debug(cart)
+        //developmentLogger.debug(cart)
         res.json({ status: 200, data: cart })
     }
     catch (err) {

@@ -16,6 +16,10 @@ import { URI } from '../db/mongo.db.js';
 import { secret, PORT } from '../utils/dotenv/dotenv.config.js'
 import { connectToDatabase } from '../db/mongo.db.js';
 import { developmentLogger, productionLogger } from '../utils/Logger/logger.js'
+import swaggerUi from 'swagger-ui-express';
+import { specs } from '../utils/swagger/swagger.js'
+
+
 const app = express()
 
 
@@ -46,6 +50,7 @@ initializePassport();
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 //handlebars config
 
@@ -68,9 +73,9 @@ app.use('/register', viewsRoutes)
 app.use('/profile', viewsRoutes)
 
 //rutas backend-only
-app.use('/apifs', fsroutes)
-app.use('/apimongo', mnroutes)
-app.use('/cartmongo', cartMongoRoutes)
+app.use('/api/fs', fsroutes)
+app.use('/api/products', mnroutes)
+app.use('/api/carts', cartMongoRoutes)
 app.use('/mongouser', userMongoRoutes)
 
 app.use((req, res, next) => {

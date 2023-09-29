@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import ActionsMongo from '../Controllers/controller.mongo.js'
 import { generateProduct } from '../utils/Mock/mock.products.js';
-
+import { developmentLogger } from '../utils/Logger/logger.js';
 
 const mnrouter = Router();
 
