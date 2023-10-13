@@ -1,13 +1,12 @@
-import ProductManager from '../DAOs/mongo/manager/products/manager.products.mongo.js';
-import CartManager from '../DAOs/mongo/manager/carts/manager.carts.mongo.js';
-import UserManager from '../DAOs/mongo/manager/users/manager.user.mongo.js';
 import passport from "passport";
-import { createHash, isValidPassword } from "../utils/utils.js"
-import { developmentLogger } from '../utils/Logger/logger.js'
+import CartManager from '../DAOs/mongo/manager/carts/manager.carts.mongo.js';
+import ProductManager from '../DAOs/mongo/manager/products/manager.products.mongo.js';
+import UserManager from '../DAOs/mongo/manager/users/manager.user.mongo.js';
+import { developmentLogger } from '../utils/Logger/logger.js';
 
 class ActionsMongo {
     // Métodos de productos
-    static async getAll(req, res) {
+    static async renderAllProducts(req, res) {
         try {
             const { products, hasNextPage, hasPrevPage, nextPage, prevPage } = await ProductManager.getAll(req, res, req.query);
             res.render('products', { products, hasNextPage, hasPrevPage, nextPage, prevPage });
@@ -18,6 +17,16 @@ class ActionsMongo {
         }
     }
 
+    static async getAll(req, res) {
+        try {
+            const { products, hasNextPage, hasPrevPage, nextPage, prevPage } = await ProductManager.getAll(req, res, req.query);
+            return ({ data: products, hasNextPage, hasPrevPage, nextPage, prevPage });
+            //return data
+        } catch (err) {
+            developmentLogger.fatal(err)
+            res.json({ status: 500, err: err.message });
+        }
+    }
 
     static async getOne(req, res) {
         try {
@@ -43,7 +52,8 @@ class ActionsMongo {
     static async getAllCarts(req, res) {
         try {
             const { carts, hasNextPage, hasPrevPage, nextPage, prevPage } = await CartManager.getAllCarts(req, res, req.query);
-            res.render('carts', { carts, hasNextPage, hasPrevPage, nextPage, prevPage });
+            console.log(carts)
+            res.json({ status: 200, data: carts, hasNextPage, hasPrevPage, nextPage, prevPage });
         } catch (err) {
             developmentLogger.fatal(err)
             res.json({ status: 500, err: err.message });
@@ -53,9 +63,11 @@ class ActionsMongo {
     static async getOneCart(req, res) {
         try {
             const cart = await CartManager.getOneCart(req.params.id);
-            res.render('cart', { cart });
+            console.log(cart)
+            return cart
         } catch (err) {
             developmentLogger.fatal(err)
+
             res.json({ status: 500, err: err.message });
         }
     }

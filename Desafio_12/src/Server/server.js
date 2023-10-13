@@ -1,23 +1,22 @@
-import express from 'express';
-import fsroutes from "../Routes/routes.fs.js";
-import mnroutes from "../Routes/routes.mongo.js"
-import viewsRoutes from "../Routes/routes.views.js"
-import handlebars from 'express-handlebars'
-import __dirname from '../utils/utils.js'
-import path from 'path'
-import cartMongoRoutes from '../Routes/cart.mongo.routes.js'
-import userMongoRoutes from '../Routes/routes.session.js';
-import cookieParser from 'cookie-parser';
-import session from 'express-session';
 import MongoStore from 'connect-mongo';
+import cookieParser from 'cookie-parser';
+import express from 'express';
+import handlebars from 'express-handlebars';
+import session from 'express-session';
 import passport from 'passport';
-import initializePassport from '../utils/Passport/passport.config.js';
-import { URI } from '../db/mongo.db.js';
-import { secret, PORT } from '../utils/dotenv/dotenv.config.js'
-import { connectToDatabase } from '../db/mongo.db.js';
-import { developmentLogger, productionLogger } from '../utils/Logger/logger.js'
+import path from 'path';
 import swaggerUi from 'swagger-ui-express';
-import { specs } from '../utils/swagger/swagger.js'
+import cartMongoRoutes from '../Routes/cart.mongo.routes.js';
+import mnroutes from "../Routes/products.mongo.routes.js";
+import fsroutes from "../Routes/routes.fs.js";
+import userMongoRoutes from '../Routes/routes.session.js';
+import viewsRoutes from "../Routes/routes.views.js";
+import { URI, connectToDatabase } from '../db/mongo.db.js';
+import { developmentLogger } from '../utils/Logger/logger.js';
+import initializePassport from '../utils/Passport/passport.config.js';
+import { PORT, secret } from '../utils/dotenv/dotenv.config.js';
+import { specs } from '../utils/swagger/swagger.js';
+import __dirname from '../utils/utils.js';
 
 
 const app = express()

@@ -10,7 +10,7 @@ viewsRoutes.get('/', (req, res) => {
 });
 
 // Rutas de productos
-viewsRoutes.get('/products', ActionsMongo.getAll);
+viewsRoutes.get('/products', ActionsMongo.renderAllProducts);
 viewsRoutes.get('/product/:id', ActionsMongo.getOne);
 viewsRoutes.get('/addproducts', (req, res) => {
     res.render('addProduct');

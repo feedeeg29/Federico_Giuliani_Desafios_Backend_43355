@@ -7,9 +7,9 @@ const mnrouter = Router();
 
 
 //Endpoint para traer todos los productos 
-mnrouter.get('/all', async (req, res) => {
+mnrouter.get('/', async (req, res) => {
     try {
-        const products = await ActionsMongo.getAll(req, res, req.query)
+        const products = await ActionsMongo.getAll(req, req.query)
         res.status(200).json({ status: 200, data: products })
     }
     catch (err) {
@@ -60,7 +60,7 @@ mnrouter.delete("/:id", async (req, res) => {
     res.send(204)
 })
 
-mnrouter.get("/", (req, res) => {
+mnrouter.get("/mocks", (req, res) => {
     try {
         const products = [];
         for (let i = 0; i < 100; i++) {

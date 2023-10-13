@@ -10,7 +10,8 @@ const cartMongoRoutes = Router();
 cartMongoRoutes.get('/', async (req, res) => {
     try {
         const carts = await ActionsMongo.getAllCarts(req, res, req.query)
-        res.json({ status: 200, data: carts })
+        console.log(carts)
+        res.status(200).json({ status: 200, data: carts })
     }
     catch (err) {
         res.json({ status: 500, err: err.message })

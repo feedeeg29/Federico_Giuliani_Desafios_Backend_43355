@@ -54,3 +54,4 @@
 [36minfo[39m: [36mPrueba de información.[39m
 [33mwarning[39m: [33mprueba de advertencia.[39m
 [31merror[39m: [31mprueba de error.[39m
+[36minfo[39m: [36mConnected to MongoDB[39m
