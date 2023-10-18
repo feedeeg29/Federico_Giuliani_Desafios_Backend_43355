@@ -4,6 +4,7 @@ class UserManager {
     static async getUsers() {
         try {
             const users = await userModel.find();
+            console.log(users)
             return users;
         } catch (err) {
             throw new Error('Error al obtener todos los usuarios: ' + err.message);
@@ -56,6 +57,17 @@ class UserManager {
     static async deleteUser(email) {
         try {
             const deletedUser = await userModel.findOneAndDelete({ email });
+            return deletedUser;
+        } catch (err) {
+            throw new Error('Error al eliminar el usuario: ' + err.message);
+        }
+    }
+
+
+    static async deleteUserById(id) {
+        try {
+            const deletedUser = await userModel.findOneAndDelete({ id });
+            if (!deletedUser) { console.log("mi puta madre") }
             return deletedUser;
         } catch (err) {
             throw new Error('Error al eliminar el usuario: ' + err.message);

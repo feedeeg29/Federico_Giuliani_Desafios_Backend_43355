@@ -1,23 +1,15 @@
 import { Router } from "express";
 import ActionsMongo from '../Controllers/controller.mongo.js'
-import { createHash, isValidPassword } from "../utils/utils.js"
 import { developmentLogger } from "../utils/Logger/logger.js";
+import { authRole } from "../utils/role/role.middleware.js";
 const userMongoRoutes = Router();
 
-userMongoRoutes.get("/", async (req, res) => {
-    try {
-        const users = await ActionsMongo.getUsers();
-        res.json({ status: 200, data: users });
-    } catch (err) {
-        res.json({ status: 500, err: err.message });
-    }
-});
+userMongoRoutes.get("/", ActionsMongo.getAllUsers);
 userMongoRoutes.post("/register", ActionsMongo.registerUser);
-
 
 // actualizar un usuario -- email requerido
 userMongoRoutes.put("/:email", ActionsMongo.updateUser);
-
+userMongoRoutes.put("/premium", ActionsMongo.updateUser)
 // Iniciar sesion
 userMongoRoutes.post("/login", ActionsMongo.loginUser);
 
@@ -26,7 +18,7 @@ userMongoRoutes.post("/logout", ActionsMongo.logoutUser);
 
 //Eliminar un usurio -- Email requerido
 userMongoRoutes.delete("/:email", ActionsMongo.deleteUser);
-
+userMongoRoutes.delete("/:uid", ActionsMongo.deleteUserByID)
 // Autenticación con GitHub
 userMongoRoutes.get("/github", ActionsMongo.authenticateGithub);
 
@@ -53,5 +45,6 @@ userMongoRoutes.get('/ver-sesion', (req, res) => {
     }
 });
 
+userMongoRoutes.post('/:uid/documents', ActionsMongo.uploadDocuments);
 
 export default userMongoRoutes;

@@ -2,12 +2,13 @@ import { Router } from 'express';
 import ActionsMongo from '../Controllers/controller.mongo.js'
 import { generateProduct } from '../utils/Mock/mock.products.js';
 import { developmentLogger } from '../utils/Logger/logger.js';
+import { authRole } from '../utils/role/role.middleware.js'
 
 const mnrouter = Router();
 
 
 //Endpoint para traer todos los productos 
-mnrouter.get('/', async (req, res) => {
+mnrouter.get('/', authRole(["admin", "superadmin", "premiumUser", "freeUser"]), async (req, res) => {
     try {
         const products = await ActionsMongo.getAll(req, req.query)
         res.status(200).json({ status: 200, data: products })
@@ -19,7 +20,7 @@ mnrouter.get('/', async (req, res) => {
 
 
 //Endpoint para traer un producto -- ID requerido
-mnrouter.get("/:id", async (req, res) => {
+mnrouter.get("/:id", authRole(["admin", "superadmin", "premiumUser", "freeUser"]), async (req, res) => {
     const { id } = req.params;
     try {
         const product = await ActionsMongo.getOne(id)
@@ -36,7 +37,7 @@ mnrouter.post("/", ActionsMongo.createProduct)
 
 
 //Endpoint para actualizar un producto -- ID requerido
-mnrouter.put("/:id", async (req, res) => {
+mnrouter.put("/:id", authRole(["admin", "superadmin"]), async (req, res) => {
     const { id } = req.params;
     const { name, description, code, thumbnail, price, stock } = req.body;
     const product = req.body;
@@ -45,13 +46,13 @@ mnrouter.put("/:id", async (req, res) => {
 
 
 //Endpoint para eliminar un producto -- ID requerido
-mnrouter.delete("/:id", async (req, res) => {
+mnrouter.delete("/:id", authRole(["admin", "superadmin"]), async (req, res) => {
     const { id } = req.params;
     await ActionsMongo.deleteProduct(id)
     res.send(204)
 })
 
-mnrouter.get("/mocks", (req, res) => {
+mnrouter.get("/mocks", authRole(["admin", "superadmin"]), (req, res) => {
     try {
         const products = [];
         for (let i = 0; i < 100; i++) {

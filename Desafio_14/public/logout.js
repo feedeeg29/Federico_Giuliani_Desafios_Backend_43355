@@ -2,7 +2,7 @@ const logoutButton = document.getElementById('logoutButton');
 
 logoutButton.addEventListener('click', async () => {
     try {
-        const response = await fetch('/mongouser/logout', {
+        const response = await fetch('api/users/logout', {
             method: 'POST'
         });
 

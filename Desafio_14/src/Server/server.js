@@ -19,6 +19,7 @@ import { specs } from '../utils/swagger/swagger.js';
 import __dirname from '../utils/utils.js';
 
 
+
 const app = express()
 
 
@@ -75,7 +76,7 @@ app.use('/profile', viewsRoutes)
 app.use('/api/fs', fsroutes)
 app.use('/api/products', mnroutes)
 app.use('/api/carts', cartMongoRoutes)
-app.use('/mongouser', userMongoRoutes)
+app.use('/api/users', userMongoRoutes)
 
 app.use((req, res, next) => {
   /* solo descomentar este codigo durante las pruebas

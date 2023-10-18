@@ -8,9 +8,9 @@ registerForm.addEventListener('submit', async (e) => {
         formData[key] = value;
     });
     const jsonData = JSON.stringify(formData);
-
+    console.log(jsonData)
     try {
-        const response = await fetch('mongouser/register', {
+        const response = await fetch('api/users/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

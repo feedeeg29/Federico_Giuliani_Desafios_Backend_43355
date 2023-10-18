@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', async (e) => {
     const jsonData = JSON.stringify(formData);
 
     try {
-        const response = await fetch('mongouser/login', {
+        const response = await fetch('api/users/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -24,7 +24,7 @@ loginForm.addEventListener('submit', async (e) => {
 
         const responseData = await response.json();
         if (responseData.status === 'success') {
-            window.location.replace('/mongouser/current');
+            window.location.replace('/login');
         }
     } catch (error) {
         console.error('Error al procesar la solicitud:', error.message);

@@ -3,7 +3,7 @@ import CartManager from '../DAOs/mongo/manager/carts/manager.carts.mongo.js';
 import ProductManager from '../DAOs/mongo/manager/products/manager.products.mongo.js';
 import UserManager from '../DAOs/mongo/manager/users/manager.user.mongo.js';
 import { developmentLogger } from '../utils/Logger/logger.js';
-
+import { storage, upload } from '../utils/multerStorage/multer.document.js'
 class ActionsMongo {
     // Métodos de productos
     static async renderAllProducts(req, res) {
@@ -92,6 +92,17 @@ class ActionsMongo {
 
 
     // Métodos de autenticación (manejo de usuarios)
+    static async createUser(userData) {
+        const payload = await UserManager.createUser(userData)
+        return payload
+    }
+    static async getUserById(req, res, id) {
+        return await UserManager.getUserById(id)
+    }
+    static async getAllUsers(req, res) {
+        const users = UserManager.getUsers()
+        res.json({ status: 200, data: users })
+    }
     static async registerUser(req, res) {
         try {
             const { email, password } = req.body;
@@ -105,6 +116,7 @@ class ActionsMongo {
     static async getUserByEmail(email) {
         return UserManager.getUserByEmail(email)
     }
+
     static async loginUser(req, res) {
         const { email, password } = req.body;
         try {
@@ -156,7 +168,16 @@ class ActionsMongo {
             res.json({ status: 500, err: err.message });
         }
     }
-
+    static async deleteUserByID(req, res) {
+        try {
+            const { uid } = req.params;
+            console.log(userID)
+            const deletedUser = await UserManager.deleteUserById(uid)
+            res.json({ status: 400, data: deletedUser })
+        } catch {
+            console.log("error")
+        }
+    }
     static async deleteUser(req, res) {
         try {
             const email = req.params.email;
@@ -177,9 +198,8 @@ class ActionsMongo {
                 console.error("Error en autenticación de GitHub:", err);
                 return res.status(500).json({ status: "error", message: "Error en autenticación de GitHub" });
             }
-
             req.session.user = user;
-            res.redirect("/");
+            res.redirect("/profile");
         })(req, res, next);
     }
 
@@ -187,8 +207,9 @@ class ActionsMongo {
         if (req.session.user) {
             const currentUser = req.session.user;
             res.status(200).json({ status: "success", user: currentUser });
+            developmentLogger.info("usuario conectado", currentUser)
         } else {
-            developmentLogger.warning(err)
+            developmentLogger.warning("Usuario no autenticado")
             res.status(401).json({ status: "error", message: "Usuario no autenticado" });
         }
     }
@@ -216,6 +237,31 @@ class ActionsMongo {
             res.status(500).json({ status: 'error', message: err.message });
         }
     };
+    static async uploadDocuments(req, res) {
+        try {
+            const userId = req.params.uid;
+            const user = await UserManager.getUserById(userId);
+            if (user) {
+                upload.array('documents', 5)(req, res, async (err) => {
+                    if (err) {
+                        res.status(400).json({ error: 'Error al cargar los documentos.' });
+                    } else {
+                        // Guarda los documentos en la base de datos
+                        user.documents = req.files.map((file) => ({
+                            name: file.originalname,
+                            reference: `/uploads/documents/${file.filename}`,
+                        }));
+                        await user.save();
+                        res.status(200).json({ message: 'Documentos cargados con éxito.' });
+                    }
+                });
+            } else {
+                res.status(404).json({ error: 'Usuario no encontrado.' });
+            }
+        } catch (error) {
+            res.status(500).json({ error: 'Error al cargar los documentos.' });
+        }
+    }
 }
 
 
